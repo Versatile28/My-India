@@ -1,0 +1,6 @@
+{
+  "icons": [
+    { "src": "img/logo/MI-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "img/logo/MI-512.png", "type": "image/png", "sizes": "512x512" }
+  ]
+}

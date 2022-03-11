@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="My India is an AI-powered vacation generator that will help you find the perfect vacation."
+    />
+    <link rel="icon" href="img/logo/MI.png" />
+
+    <link rel="apple-touch-icon" href="img/logo/apple-touch-icon.png" />
+
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script defer src="js/script.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+
+    <title>My India &mdash; Heaven for travelers</title>
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <a href="#">
+          <img
+            class="logo"
+            alt="My India logo"
+            src="img/logo/My India-logos_black.png"
+          />
+        </a>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li><a class="main-nav-link" href="#how">How it works</a></li>
+            <li><a class="main-nav-link" href="#plans">Top plans</a></li>
+            <li>
+              <a class="main-nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li><a class="main-nav-link" href="#classes">Class</a></li>
+            <li><a class="main-nav-link nav-cta" href="#cta">Book now</a></li>
+          </ul>
+        </nav>
+
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+      </header>
+
+      <div class="section-hero">
+        <div class="slider">
+          <div class="slide lazy-img">
+            <img
+              src="img/gallery/taj-mahal.jpg"
+              alt="Taj Mahal"
+              height="500px"
+            />
+          </div>
+          <div class="slide lazy-img">
+            <img
+              src="img/gallery/agra-fort.jpg"
+              alt="Agra Fort"
+              height="500px"
+            />
+          </div>
+          <div class="slide lazy-img">
+            <img
+              src="img/gallery/goa-beach.jpg"
+              alt="Goa Beach"
+              height="500px"
+            />
+          </div>
+          <div class="slide lazy-img">
+            <img
+              src="img/gallery/harmandir-sahib.jpg"
+              alt="Harmandir Sahib"
+              height="500px"
+            />
+          </div>
+          <div class="slide lazy-img">
+            <img
+              src="img/gallery/india-gate.jpg"
+              alt="India Gate"
+              height="500px"
+            />
+          </div>
+          <div class="slide lazy-img">
+            <img src="img/gallery/red-fort.jpg" alt="Red Fort" height="500px" />
+          </div>
+          <button class="slider__btn slider__btn--left">&larr;</button>
+          <button class="slider__btn slider__btn--right">&rarr;</button>
+          <div class="dots"></div>
+        </div>
+      </div>
+
+      <section class="section-how" id="how">
+        <div class="container">
+          <span class="subheading">How it works</span>
+          <h2 class="heading-secondary">
+            Make your upcoming vacation pleasurable in 3 simple steps
+          </h2>
+        </div>
+
+        <div class="container grid grid--2-cols">
+          <!-- STEP 01 -->
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="heading-tertiary">
+              Tell us the types of places you like
+            </h3>
+            <p class="step-description">
+              Tell us the types of locations you like like sea sides, mountains,
+              historical sites. My India AI will search for all the perfect
+              trips just for you. Our organisation will make every vacation
+              memorable and exciting, no matter what places you like in India.
+            </p>
+          </div>
+          <!-- STEP 02 -->
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="heading-tertiary">Approve your vacation plan</h3>
+            <p class="step-description">
+              Choose the traval plan you like and approve it. You can also
+              remove the non-compulsury traval locations from the plan. If none
+              of the plans are of your liking then contact us at our email
+              address with your own plans.
+            </p>
+          </div>
+          <!-- STEP 03 -->
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="heading-tertiary">Choose your economic plan</h3>
+            <p class="step-description">
+              Our organisation provide 3 types of economic plans : economic,
+              smart and luxury. The economic plan is budget-friendly, luxury
+              plan is the most expensive and smart combines the pros of both
+              economic and luxury plans.
+            </p>
+          </div>
+          <!-- STEP 04 -->
+          <div class="step-text-box">
+            <p class="step-number">04</p>
+            <h3 class="heading-tertiary">Easy canceling</h3>
+            <p class="step-description">
+              If for any reason you want to cancel a trip a email would be
+              enough. But it should be done atleast a week before the trip. To
+              cancel in the week before the trip some fine has to be paid.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-top-plans" id="plans">
+        <div class="container center-text">
+          <span class="subheading">Top Plans</span>
+          <h2 class="heading-secondary">
+            My India AI chooses from 1,000+ plans
+          </h2>
+        </div>
+        <div class="container grid grid--3-cols margin-bottom-md">
+          <div class="plan">
+            <img
+              src="img/gallery/taj-mahal1.jpg"
+              class="plan-img lazy-img"
+              alt="Taj Mahal"
+            />
+            <div class="plan-content">
+              <div class="plan-tags">
+                <span class="tag tag--heritage">Heritage</span>
+              </div>
+              <p class="plan-title">Agra</p>
+              <ul class="plan-highlights">
+                <li class="plan-highlight">
+                  <ion-icon class="plan-icon" name="earth-outline"></ion-icon
+                  ><span>Taj Mahal</span>
+                </li>
+                <li class="plan-highlight">
+                  <ion-icon class="plan-icon" name="earth-outline"></ion-icon
+                  ><span>Fatehpur Shikri</span>
+                </li>
+                <li class="plan-highlight">
+                  <ion-icon class="plan-icon" name="earth-outline"></ion-icon
+                  ><span>Agra Fort</span>
+                </li>
+                <li class="plan-highlight">
+                  <ion-icon class="plan-icon" name="earth-outline"></ion-icon
+                  ><span>Tomb of Itimad-ud-Daulah</span>
+                </li>
+                <li class="plan-highlight">
+                  <ion-icon class="plan-icon" name="earth-outline"></ion-icon
+                  ><span>Akbar's Mausoleum</span>
+                </li>
+                <li class="plan-highlight">
+                  <ion-icon class="plan-icon" name="earth-outline"></ion-icon
+                  ><span>Agra Bear Rescue Center</span>
+                </li>
+                <li class="plan-highlight">
+                  <ion-icon
+                    class="plan-icon"
+                    name="star-half-outline"
+                  ></ion-icon
+                  ><span><strong>4.8</strong> rating (230)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="plan">
+            <img
+              src="img/gallery/goa-beach1.jpg"
+              class="plan-img lazy-img"
+              alt="Goa Beach"
+            />
+            <div class="plan-content">
+              <div class="plan-tags">
+                <span class="tag tag--adventure">Adventure</span>
+                <span class="tag tag--nature">Nature</span>
+              </div>
+              <p class="plan-title">Goa</p>
+              <ul class="plan-highlights">
+                <li class="plan-highlight">
+                  <ion-icon class="plan-icon" name="earth-outline"></ion-icon
+                  ><span>Popular Beaches</span>
+                </li>
+                <li class="plan-highlight">
+                  <ion-icon class="plan-icon" name="earth-outline"></ion-icon
+                  ><span>Portuguese Restaurants</span>
+                </li>
+                <li class="plan-highlight">
+                  <ion-icon class="plan-icon" name="earth-outline"></ion-icon
+                  ><span>Basilica de Bom Jesus</span>
+                </li>
+                <li class="plan-highlight">
+                  <ion-icon class="plan-icon" name="earth-outline"></ion-icon
+                  ><span>Dudhsagar Falls</span>
+                </li>
+                <li class="plan-highlight">
+                  <ion-icon class="plan-icon" name="earth-outline"></ion-icon
+                  ><span>Anjuna Market</span>
+                </li>
+                <li class="plan-highlight">
+                  <ion-icon class="plan-icon" name="earth-outline"></ion-icon
+                  ><span>Mahadev Temple</span>
+                </li>
+                <li class="plan-highlight">
+                  <ion-icon
+                    class="plan-icon"
+                    name="star-half-outline"
+                  ></ion-icon
+                  ><span><strong>4.9</strong> rating (740)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="plan chennai">
+            <img
+              src="img/gallery/san-thomas-basilica1.jpg"
+              class="plan-img lazy-img"
+              alt="San Thomas Basilica"
+            />
+            <div class="plan-content">
+              <div class="plan-tags">
+                <span class="tag tag--heritage">Heritage</span>
+                <span class="tag tag--Spiritual">Spiritual</span>
+              </div>
+              <p class="plan-title">Chennai</p>
+              <ul class="plan-highlights">
+                <li class="plan-highlight">
+                  <ion-icon class="plan-icon" name="earth-outline"></ion-icon
+                  ><span>Kapaleeshwarar temple</span>
+                </li>
+                <li class="plan-highlight">
+                  <ion-icon class="plan-icon" name="earth-outline"></ion-icon
+                  ><span>Marina beach</span>
+                </li>
+                <li class="plan-highlight">
+                  <ion-icon class="plan-icon" name="earth-outline"></ion-icon
+                  ><span>Government Museum</span>
+                </li>
+                <li class="plan-highlight">
+                  <ion-icon class="plan-icon" name="earth-outline"></ion-icon
+                  ><span>Fort St George</span>
+                </li>
+                <li class="plan-highlight">
+                  <ion-icon class="plan-icon" name="earth-outline"></ion-icon
+                  ><span>National Art Gallery</span>
+                </li>
+                <li class="plan-highlight">
+                  <ion-icon class="plan-icon" name="earth-outline"></ion-icon
+                  ><span>San Thomas Basilica</span>
+                </li>
+                <li class="plan-highlight">
+                  <ion-icon
+                    class="plan-icon"
+                    name="star-half-outline"
+                  ></ion-icon
+                  ><span><strong>4.7</strong> rating (321)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="container all-plans">
+          <a href="#" class="link">See all plans &rarr;</a>
+        </div>
+      </section>
+
+      <section class="section-testimonials" id="testimonials">
+        <div class="testimonials-container">
+          <span class="subheading">Testimonials</span>
+          <h2 class="heading-secondary">Heavenly experience, unforgotable</h2>
+
+          <div class="testimonials">
+            <figure class="testimonial">
+              <img
+                class="testimonial-img lazy-img"
+                src="img/customers/customer-1.jpg"
+                alt="Photo of Anuskha Kumar"
+              />
+              <blockquote class="testimonial-text">
+                Great plans for vacation in quite a good price range!! Good
+                hotels, top notch guides and traval was very smooth.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Anuskha Kumar</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img lazy-img"
+                src="img/customers/customer-4.jpg"
+                alt="Photo of Dhruvan Patel"
+              />
+              <blockquote class="testimonial-text">
+                My India is very customer friendly. They arrange the trips so
+                well that I had energy all day long and was rarely tired in this
+                vacation.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Dhruvan Patel</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img lazy-img"
+                src="img/customers/customer-2.jpg"
+                alt="Photo of Rahul Kapoor"
+              />
+              <blockquote class="testimonial-text">
+                It was a very memorable experience. I was stunted to see Dal
+                lake so beautiful when frozen. With My India we got good warm
+                hotels and great foods.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Rahul Kapoor</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img lazy-img"
+                src="img/customers/customer-3.jpg"
+                alt="Photo of Olivia Evans"
+              />
+              <blockquote class="testimonial-text">
+                India has the most cultural diversity. I specially liked the
+                south indian foods in the resturants. During this trip My India
+                helped a lot as it was my first trip to India.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Olivia Evans</p>
+            </figure>
+          </div>
+        </div>
+        <div class="gallery">
+          <figure class="gallery-item lazy-img">
+            <img
+              src="img/gallery/testimonial/1.jpg"
+              alt="Photo of great scene"
+            />
+          </figure>
+
+          <figure class="gallery-item lazy-img">
+            <img
+              src="img/gallery/testimonial/2.jpg"
+              alt="Photo of great scene"
+            />
+          </figure>
+
+          <figure class="gallery-item lazy-img">
+            <img
+              src="img/gallery/testimonial/3.jpg"
+              alt="Photo of great scene"
+            />
+          </figure>
+
+          <figure class="gallery-item lazy-img">
+            <img
+              src="img/gallery/testimonial/4.jpg"
+              alt="Photo of great scene"
+            />
+          </figure>
+
+          <figure class="gallery-item lazy-img">
+            <img
+              src="img/gallery/testimonial/5.jpg"
+              alt="Photo of great scene"
+            />
+          </figure>
+
+          <figure class="gallery-item lazy-img">
+            <img
+              src="img/gallery/testimonial/6.jpg"
+              alt="Photo of great scene"
+            />
+          </figure>
+
+          <figure class="gallery-item lazy-img">
+            <img
+              src="img/gallery/testimonial/7.jpg"
+              alt="Photo of great scene"
+            />
+          </figure>
+
+          <figure class="gallery-item lazy-img">
+            <img
+              src="img/gallery/testimonial/8.jpg"
+              alt="Photo of great scene"
+            />
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/testimonial/9.jpg"
+              alt="Photo of great scene"
+            />
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/testimonial/10.jpg"
+              alt="Photo of great scene"
+            />
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/testimonial/11.jpg"
+              alt="Photo of great scene"
+            />
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/testimonial/12.jpg"
+              alt="Photo of great scene"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" id="classes">
+        <div class="container center-text">
+          <div class="section__title">
+            <span class="subheading">Class</span>
+            <h2 class="heading-secondary">
+              Budget-friendly to luxury, nothing a dream here!
+            </h2>
+          </div>
+        </div>
+
+        <div class="operations">
+          <div class="operations__tab-container">
+            <button
+              class="btn operations__tab operations__tab--1 operations__tab--active"
+              data-tab="1"
+            >
+              <span>01</span>Economic
+            </button>
+            <button class="btn operations__tab operations__tab--2" data-tab="2">
+              <span>02</span>Smart
+            </button>
+            <button class="btn operations__tab operations__tab--3" data-tab="3">
+              <span>03</span>Luxury
+            </button>
+          </div>
+          <div
+            class="operations__content operations__content--1 operations__content--active"
+          >
+            <div class="operations__icon operations__icon--1">
+              <div>
+                <ion-icon
+                  class="fitness-outline"
+                  name="fitness-outline"
+                ></ion-icon>
+              </div>
+            </div>
+            <h5 class="operations__header">
+              Budget-frendly and comfortable trips
+            </h5>
+            <p class="operation-text-p">
+              Economic plans are made for people who don't want to invest so
+              much money in vacations but want a comfortable trip. We provide
+              good hotels, transport and good guides.
+            </p>
+          </div>
+
+          <div class="operations__content operations__content--2">
+            <div class="operations__icon operations__icon--2">
+              <div>
+                <ion-icon class="star-outline" name="star-outline"></ion-icon>
+              </div>
+            </div>
+            <h5 class="operations__header">Modest cost with luxury</h5>
+            <p class="operation-text-p">
+              Smart plans are for travelers interested in vacations and are
+              affluent. We provide better hotels , better transport and good
+              guides.
+            </p>
+          </div>
+          <div class="operations__content operations__content--3">
+            <div class="operations__icon operations__icon--3">
+              <div>
+                <ion-icon class="cash-outline" name="cash-outline"></ion-icon>
+              </div>
+            </div>
+            <h5 class="operations__header">Most Premiun and most gorgeous</h5>
+            <p class="operation-text-p">
+              Luxury plans are for rich people interested in the most perfect
+              vacations. We provide best hotels , best transport and top notch
+              guides.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Get your first plan at 15% off!</h2>
+              <p class="cta-text">
+                Great travel plans for all customers. Start booking for your
+                first trip. It's 15% off. So hurry up!
+              </p>
+
+              <form class="cta-form" name="sign-up" netlify>
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Satyaki Pal"
+                    nane="full-name"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Email address</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="me@example.com"
+                    name="email"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="select-gender">Gender</label>
+                  <select id="select-gender" name="select-gender" required>
+                    <option value="">Please choose one option</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="unknown">I rather not say</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label for="select-where">Where did you hear from us?</label>
+                  <select id="select-where" name="select-where" required>
+                    <option value="">Please choose one option</option>
+                    <option value="friends">Friends and Family</option>
+                    <option value="youtube">YouTube video</option>
+                    <option value="podcast">Podcast</option>
+                    <option value="ad">Facebook ad</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
+
+                <button class="btn--1">Sign up now</button>
+              </form>
+            </div>
+            <div
+              class="cta-img-box lazy-img"
+              role="img"
+              aria-label="Hawa Mahal"
+            ></div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container grid grid--footer">
+          <div class="logo-col">
+            <a href="#" class="footer-logo">
+              <img
+                class="logo"
+                alt="My India logo"
+                src="img/logo/My India-logos_black.png"
+              />
+            </a>
+
+            <ul class="social-links">
+              <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon
+                    class="social-icon"
+                    name="logo-instagram"
+                  ></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+                ></a>
+              </li>
+            </ul>
+
+            <p class="copyright">
+              Copyright &copy; <span class="year">2022</span> by My India, Inc.
+              All rights reserved.
+            </p>
+          </div>
+          <div class="address-col">
+            <p class="footer-heading">Contact us</p>
+            <address class="contacts">
+              <p class="address">
+                Scheme VI -M Phool Bagan CIT Road Phool Bagan, Kankurgachi
+                Kolkata, West Bengal 700054
+              </p>
+              <p>
+                <a class="footer-link" href="tel:033 1458-4547">033 1458-4547</a
+                ><br />
+                <a class="footer-link" href="mailto:tour@myindia.com"
+                  >tour@myindia.com</a
+                >
+              </p>
+            </address>
+          </div>
+
+          <nav class="nav-col">
+            <p class="footer-heading">Account</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#"> Create account</a></li>
+              <li><a class="footer-link" href="#"> Sign in</a></li>
+              <li><a class="footer-link" href="#"> iOS app</a></li>
+              <li><a class="footer-link" href="#"> Android app</a></li>
+            </ul>
+          </nav>
+
+          <nav class="nav-col">
+            <p class="footer-heading">Company</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#"> About My India</a></li>
+              <li><a class="footer-link" href="#"> Travel partners</a></li>
+              <li><a class="footer-link" href="#"> Help center</a></li>
+              <li><a class="footer-link" href="#"> Terms of service</a></li>
+              <li><a class="footer-link" href="#"> Privacy policy</a></li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
