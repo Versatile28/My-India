@@ -164,6 +164,7 @@ strong {
   outline: none;
   box-shadow: 0 0 0 0.8rem rgba(24, 100, 171, 0.5);
 }
+ 
 
 /*********************************/
 /* HEADER */
@@ -268,13 +269,14 @@ strong {
 
 .section-hero {
   background-color: #d1e0ee;
-  padding: 3rem 0 9.6rem 0;
+
   border-top: 1px solid rgb(225, 237, 248);
+  height: 50rem;
 }
 
 .slider {
   /* max-width: 130rem; */
-  height: 50rem;
+  height: 100%;
   margin: 0 auto;
   position: relative;
 
@@ -287,7 +289,7 @@ strong {
   top: 0;
   width: 100%;
   height: 50rem;
-  padding: 0 3.2rem;
+  padding: 0;
 
   display: flex;
   flex: 1;
@@ -297,11 +299,15 @@ strong {
   transition: transform 1s;
 }
 
+.slider .hidden{
+   display: none;
+ }
+
 .slide > img {
   /* Only for images that have different size than slide */
   width: 100%;
-  height: 100%;
-  object-fit: contain;
+  height: 100%;  
+  box-sizing: border-box;
 }
 
 .slider__btn {
@@ -332,7 +338,7 @@ strong {
 
 .dots {
   position: absolute;
-  bottom: 15%;
+  bottom: 10%;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -391,9 +397,10 @@ strong {
   content: '';
   display: block;
   width: 90%;
-  height: 120%;
+  height: 100%;
   background-color: #fefbf7;
   border-radius: 50%;
+  filter: blur(10px);
 
   position: absolute;
   top: 50%;
@@ -405,10 +412,11 @@ strong {
 .step-text-box::after {
   content: '';
   display: block;
-  width: 70%;
-  height: 100%;
+  width: 90%;
+  height: 120%;
   background-color: #fdf9f3;
   border-radius: 50%;
+  filter: blur(10px);
 
   position: absolute;
   top: 50%;
