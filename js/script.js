@@ -79,9 +79,17 @@ const activateDot = function (slide) {
 activateDot(0);
 
 const goToSlide = function (slide) {
+   console.log(slide);
   slides.forEach(
     (s, i) => (s.style.transform = `translateX(${100 * (i - slide)}%)`)
   );
+  console.log(slides[slide].classList.contains('hidden'));
+  for(let i=0;i<slides.length;i++){
+   if(!slides[i].classList.contains('hidden')){
+      slides[i].classList.add('hidden');
+   }
+  }
+  slides[slide].classList.remove('hidden');
 };
 goToSlide(0);
 
@@ -108,7 +116,7 @@ const prevSlide = function () {
 };
 
 const startTimer = function () {
-  let time = 30;
+  let time = 5;
   const timer = setInterval(function () {
     time--;
     if (time === 0) {
