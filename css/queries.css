@@ -3,9 +3,7 @@
 /*********************************/
 
 @media (max-width: 84em) {
-  .slider {
-    max-width: 120rem;
-  }
+
 
   .gallery {
     grid-template-columns: 1fr 1fr;
@@ -159,9 +157,6 @@
     font-size: 50%;
   }
 
-  .dots {
-    bottom: 25%;
-  }
 }
 
 /*********************************/
@@ -204,21 +199,6 @@
     padding-bottom: 7.8rem;
   }
 
-  .dots {
-    bottom: 30%;
-  }
-  .slider {
-    height: 45rem;
-  }
-
-  .slide {
-    height: 45rem;
-  }
-
-  .dots__dot {
-    height: 0.8rem;
-    width: 0.8rem;
-  }
 }
 
 @media (max-width: 36em) {
@@ -270,18 +250,6 @@
     grid-column: span 1;
     justify-self: center;
     margin: 0rem 10rem 1rem 10rem;
-  }
-
-  .slider {
-    height: 40rem;
-  }
-
-  .slide {
-    height: 40rem;
-  }
-
-  .dots {
-    bottom: 30%;
   }
 
   .section-hero {
@@ -341,13 +309,5 @@
     font-size: 1rem;
     border: none;
     /* padding: 0.2rem 0.4rem; */
-  }
-
-  .slider {
-    height: 35rem;
-  }
-
-  .slide {
-    height: 35rem;
   }
 }
