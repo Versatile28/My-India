@@ -16,8 +16,7 @@ This webpage is a Travel Website designed using HTML, CSS, and JavaScript. It sh
 
 ### Screenshot
 
-![]()
-![]()
+![](./screenshot.png)
 
 ### Links
 
