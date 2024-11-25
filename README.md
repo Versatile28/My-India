@@ -54,8 +54,3 @@ The website is hosted on Netlify, ensuring fast loading speeds and reliability.
 ## Author
 
 - Website - [Satyaki Pal](www.linkedin.com/in/sp2812)
-
-use this as template to rreadme file for mapty project add a system design section dont use the architecture screenshot but describe it clearly name it mapty - workout logging app
-
-use it as template 
-my project is a travel web site using HTM ,CSS ,JS, here i implemented slider, carosol ,form, responsive ness , hosted in hetlify.app
